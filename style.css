@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Work+Sans:wght@300&display=swap');
 *{ margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
@@ -448,4 +449,23 @@ margin-top: -10px;
 	color: #2AA1DD;
 		font-size: 6rem;
 		opacity: 0.9;
+}
+#inter-container{
+	display: flex;
+	font-family: Montserrat;
+
+}
+#left{
+	margin-right: 100px;
+	height:450px;
+	width: 900px;
+	margin-bottom: 50px;
+	color: #4b4b4b;
+	
+}
+#right{
+	margin-top: 150px;
+	min-height: auto;
+	width: 100%;
+	color: #4b4b4b;
 }
