@@ -469,3 +469,13 @@ margin-top: -10px;
 	width: 100%;
 	color: #4b4b4b;
 }
+@media screen and (max-width: 992px) {
+	
+#inter-container {
+	  flex-direction: column;
+	}
+	#left{
+		width: auto;
+		
+	}
+  }
