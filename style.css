@@ -388,6 +388,7 @@ margin-top: -10px;
 	width: 40%;
 	min-height: 10rem;
 	margin: 10px;
+	/* border: 1px solid black; */
 
 }
 .timeline-box:nth-child(2n){
@@ -417,6 +418,10 @@ margin-top: -10px;
     top: 20%;
     transform: rotate(90deg);
 }
+/* new tm */
+
+
+/* end tm */
 
 
 .logoclg{
@@ -469,6 +474,64 @@ margin-top: -10px;
 	width: 100%;
 	color: #4b4b4b;
 }
+
+/* education */
+.clg{
+	
+	display: flex;
+	justify-content: space-between;
+	
+	
+
+}
+.clg img{
+	border-radius: 10%;
+	height: 115px;
+    width: 127px;
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.286);;
+	
+	
+}
+.content{
+	display: flex;
+	flex-direction: column;
+	align-items: inherit;
+	align-content: flex-start
+
+}
+.content h3{
+	margin-left: 25px;
+}
+/* .content h3{
+	position: relative;
+}
+.content h4{
+	position: absolute;
+	top:60px;
+	right:1px; */
+	.content h4{
+		margin-left: auto;
+		/* margin-top: 5px; */
+		margin-bottom: 0px;
+	
+	}
+	.content span{
+		font-size: small;
+		margin-left: auto;
+		
+	}
+	
+	
+}
+
+
+
+/* end-education */
+
+
+
+
+
 @media screen and (max-width: 992px) {
 	
 #inter-container {
